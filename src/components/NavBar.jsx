@@ -20,7 +20,8 @@ function NavBar() {
   return (
     <AppBar
       position="static"
-      style={{ backgroundImage: `linear-gradient(#1DE9B6, #0097A7)` }}
+      style={{ backgroundImage: `linear-gradient(#ff9c5e, #5c0104)` }}
+      //style={{ backgroundImage: `linear-gradient(#1DE9B6, #0097A7)` }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
