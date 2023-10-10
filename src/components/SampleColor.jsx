@@ -4,14 +4,14 @@ function SampleColor({ color }) {
   return (
     <div
       style={{
-        width: 26,
-        height: 26,
+        width: 22,
+        height: 22,
         backgroundColor: color,
         borderRadius: 20,
         borderStyle: "solid",
         borderColor: "#000",
         borderWidth: 2,
-        margin: "0 4px",
+        margin: "0 2px",
       }}
     ></div>
   );

@@ -26,6 +26,7 @@ function App() {
       <div>
         <NavBar />
         <Prodotti />
+        <div style={{ height: 100 }}></div>
       </div>
     </ThemeProvider>
   );

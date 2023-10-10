@@ -27,7 +27,7 @@ function CustomCard({ card }) {
         <Typography variant="body" gutterBottom>
           {card.name}
         </Typography>
-        <Typography variant="h6">{card.price}</Typography>
+        <Typography variant="h6">{card.price} €</Typography>
         <div style={{ display: "flex", alignItems: "center" }}>
           <Typography variant="body">Colori:</Typography>{" "}
           {card.colours.map((color, index) => {
